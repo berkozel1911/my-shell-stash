@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+
+# Assinging the variable for better newline handling.
+
+MYIP=$(curl -s ifconfig.me)
+echo $MYIP
